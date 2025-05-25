@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.7e136149.css",
+    "main.js": "/portfolio/static/js/main.d5ff278a.js",
+    "static/media/girlcoding.png": "/portfolio/static/media/girlcoding.8646f02b12ea06571d24.png",
+    "index.html": "/portfolio/index.html",
+    "main.7e136149.css.map": "/portfolio/static/css/main.7e136149.css.map",
+    "main.d5ff278a.js.map": "/portfolio/static/js/main.d5ff278a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e136149.css",
+    "static/js/main.d5ff278a.js"
+  ]
+}
