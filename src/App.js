@@ -19,28 +19,28 @@ const App = () => {
   const projects = [
     {
       title: "Deep Learning Model for Soybean Yield Prediction",
-      image: "/projects/soybean.jpg",
+      image:  process.env.PUBLIC_URL + "/projects/soybean.jpg",
       link: "https://github.com/sindhureddyyadulla/Deep-Learning-Model-for-soybean-yield-prediction"
     },
     {
       title: "Library Management System",
-      image: "/projects/books.jpg",
+      image:  process.env.PUBLIC_URL + "/projects/books.jpg",
       link: "https://github.com/sindhureddyyadulla/Library-Management"
     },
     {
       title: "Email for Visually Impaired",
-      image: "/projects/voice email.jpg",
+      image:  process.env.PUBLIC_URL + "/projects/voice email.jpg",
       link: "https://github.com/sindhureddyyadulla/voice-based-email"
     },
   
     {
       title: "Restaurant Management System",
-      image: "/projects/hotel.jpg",
+      image:  process.env.PUBLIC_URL + "/projects/hotel.jpg",
       link: "https://github.com/sindhureddyyadulla/Restaurant_Management"
     },
     {
       title: "Plant-Leaf-disease-detection-Using-Seeed-XIAO-ESP32S3",
-      image: "/projects/plant disease.jpg",
+      image:  process.env.PUBLIC_URL + "/projects/plant disease.jpg",
       link: "https://github.com/sindhureddyyadulla/Plant-Leaf-disease-detection-Using-Seeed-XIAO-ESP32S3"
     }
 
@@ -51,8 +51,8 @@ const App = () => {
   ];
 
   const certificates = [
-    { title: "AWS Certified cloud practitioner", image: "/certs/AWS.png" },
-    { title: "Gen AI certified Cognizant", image: "/certs/Gen AI.jpeg" }
+    { title: "AWS Certified cloud practitioner", image: process.env.PUBLIC_URL + "/certs/AWS.png" },
+    { title: "Gen AI certified Cognizant", image:  process.env.PUBLIC_URL +"/certs/Gen AI.jpeg" }
   ];
 
   return (
