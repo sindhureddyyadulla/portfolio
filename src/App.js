@@ -19,27 +19,27 @@ const App = () => {
   const projects = [
     {
       title: "Deep Learning Model for Soybean Yield Prediction",
-      image: process.env.PUBLIC_URL + "/projects/soybean.jpg",
+      image: "public/projects/soybean.jpg",
       link: "https://github.com/sindhureddyyadulla/Deep-Learning-Model-for-soybean-yield-prediction"
     },
     {
       title: "Library Management System",
-      image: process.env.PUBLIC_URL + "/projects/books.jpg",
+      image:  "public/projects/books.jpg",
       link: "https://github.com/sindhureddyyadulla/Library-Management"
     },
     {
       title: "Email for Visually Impaired",
-      image:  "/projects/voiceemail.jpg",
+      image:  "public/projects/voiceemail.jpg",
       link: "https://github.com/sindhureddyyadulla/voice-based-email"
     },
     {
       title: "Restaurant Management System",
-      image:  "/projects/hotel.jpg",
+      image:  "public/projects/hotel.jpg",
       link: "https://github.com/sindhureddyyadulla/Restaurant_Management"
     },
     {
       title: "Plant-Leaf-disease-detection-Using-Seeed-XIAO-ESP32S3",
-      image:  "/projects/plantdisease.jpg",
+      image:  "public/projects/plantdisease.jpg",
       link: "https://github.com/sindhureddyyadulla/Plant-Leaf-disease-detection-Using-Seeed-XIAO-ESP32S3"
     }
   ];
